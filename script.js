@@ -32,5 +32,5 @@ function signUp(){
     }
 
     request.open("POST","signUpProcess.php",true);
-    request.send();
+    request.send(form);
 }
